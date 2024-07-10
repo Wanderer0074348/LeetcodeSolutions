@@ -9,6 +9,3 @@ class Solution:
             wait += time - c[0]
         return wait / len(customers)
 
-a = Solution()
-print(a.averageWaitingTime([[1,2],[2,5],[4,3]]))
-print(a.averageWaitingTime([[5,2],[5,4],[10,3],[20,1]]))

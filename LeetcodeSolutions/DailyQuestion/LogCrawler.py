@@ -8,7 +8,4 @@ class Solution:
                 count += 1
         return count
 
-a = Solution()
-print(a.minOperations(["d1/","d2/","../","d21/","./"])) # 2
-print(a.minOperations(["d1/","d2/","./","d3/","../","d31/"])) # 3
-print(a.minOperations(["d1/","../","../","../"])) # 0
+
